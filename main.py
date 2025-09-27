@@ -1,4 +1,4 @@
-from analyzer import summarize
+from analyzer import summarize, extract_clauses
 
 summary = summarize()
 
