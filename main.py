@@ -1,5 +1,6 @@
-from analyzer import summarize, extract_clauses
+from analyzer import TermsAnalyzer
 
-summary = summarize()
+analyzer = TermsAnalyzer("google_terms_of_service_en_us.pdf")
+summary = analyzer.summarize()
 
 print(f"summary: {summary}")
